@@ -1,2 +1,0 @@
-# ReactApp
-Implementação do React
