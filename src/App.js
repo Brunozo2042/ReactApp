@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
 
 function App() {
   return (
-    <Header></Header>
+    <Header name="Bruno H." links={["Sobre","Comprar","Contato","Login"]}></Header>
   );
 }
 

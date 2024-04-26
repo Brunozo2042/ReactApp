@@ -1,15 +1,12 @@
 import React from 'react'
 import './App.css'
+import Menu from './Menu'
 
-export default function Header(){
+export default function Header(props){
     return(
         <header className='header'>
-            <h1>Bruno H.</h1>
-            <ul className='menu'>
-                <li>About</li>
-                <li>Buy</li>
-                <li>Contact</li>
-            </ul>
+            <h1>{props.name}</h1>
+            <Menu links={props.links}></Menu>
         </header>
     )
 }
