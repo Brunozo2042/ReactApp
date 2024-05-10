@@ -1,4 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+// export default function Counter(props){
+
+//     const [count, setCount] = useState(props.count)
+
+//     function add(){
+//         setCount(count + 1)
+//     }
+    
+//     function sub(){
+//         setCount(count - 1)
+//     }
+
+//     return(
+//         <div>
+//             <h1>Counter: {count}</h1>
+//             <button onClick={add}>add</button>
+//             <button onClick={sub}>sub</button>
+//         </div>
+//     )
+
+// }
 
 export default class Counter extends React.Component{
 
